@@ -56,14 +56,14 @@ def generuj_readme_dla_roku(folder_rok):
     sciezka_readme = os.path.join(folder_rok, 'Readme.md')
     with open(sciezka_readme, 'w', encoding='utf-8') as f:
         f.write("### [⬅️ Powrót](../)\n\n")
-        f.write(f"# Arkusze z {folder_rok} roku\n\n")
+        f.write(f"# 📝Arkusze z {folder_rok} roku 📝\n\n")
 
         if styczen:
             f.write("## Styczeń\n")
             for folder in styczen:
                 kod = skrocony_kod(folder)
                 nr = numer_egzaminu(folder)
-                f.write(f"- {kod}-**{nr}** [{folder}](./{folder})\n")
+                f.write(f"- 📚 {kod}-**{nr}** [{folder}](./{folder})\n")
             f.write("\n")
 
         if czerwiec:
@@ -71,7 +71,7 @@ def generuj_readme_dla_roku(folder_rok):
             for folder in czerwiec:
                 kod = skrocony_kod(folder)
                 nr = numer_egzaminu(folder)
-                f.write(f"- {kod}-**{nr}** [{folder}](./{folder})\n")
+                f.write(f"- 📚 {kod}-**{nr}** [{folder}](./{folder})\n")
             f.write("\n")
 
     print(f"✅ Utworzono: {sciezka_readme}")
