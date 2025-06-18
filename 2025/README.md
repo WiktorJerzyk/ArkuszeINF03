@@ -2,6 +2,12 @@
 
 # 📝Arkusze z 2025 roku 📝
 
+**Podsumowanie arkuszy:**
+
+- INF03: 12 arkuszy
+- EE09: 1 arkuszy
+- E14: 1 arkuszy
+
 ## Styczeń
 - 📚 INF03-**01** [INF.03-01-25.01-SG](./INF.03-01-25.01-SG)
 - 📚 INF03-**02** [INF.03-02-25.01-SG](./INF.03-02-25.01-SG)

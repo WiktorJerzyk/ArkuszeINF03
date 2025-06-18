@@ -2,6 +2,12 @@
 
 # 📝Arkusze z 2022 roku 📝
 
+**Podsumowanie arkuszy:**
+
+- INF03: 4 arkuszy
+- EE09: 11 arkuszy
+- E14: 4 arkuszy
+
 ## Styczeń
 - 📚 INF03-**01** [INF.03-01-22.01-SG](./INF.03-01-22.01-SG)
 - 📚 EE09-**01** [EE.09-01-22.01-SG](./EE.09-01-22.01-SG)

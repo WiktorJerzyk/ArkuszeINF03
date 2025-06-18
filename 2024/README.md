@@ -2,6 +2,12 @@
 
 # 📝Arkusze z 2024 roku 📝
 
+**Podsumowanie arkuszy:**
+
+- INF03: 24 arkuszy
+- EE09: 3 arkuszy
+- E14: 3 arkuszy
+
 ## Styczeń
 - 📚 INF03-**01** [INF.03-01-24.01-SG](./INF.03-01-24.01-SG)
 - 📚 INF03-**02** [INF.03-02-24.01-SG](./INF.03-02-24.01-SG)

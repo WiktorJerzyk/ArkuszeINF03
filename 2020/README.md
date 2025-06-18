@@ -2,6 +2,12 @@
 
 # 📝Arkusze z 2020 roku 📝
 
+**Podsumowanie arkuszy:**
+
+- INF03: 0 arkuszy
+- EE09: 9 arkuszy
+- E14: 8 arkuszy
+
 ## Styczeń
 - 📚 EE09-**01** [EE.09-01-20.01-SG](./EE.09-01-20.01-SG)
 - 📚 EE09-**02** [EE.09-02-20.01-SG](./EE.09-02-20.01-SG)

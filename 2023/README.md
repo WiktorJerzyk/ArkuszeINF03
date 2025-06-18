@@ -2,6 +2,12 @@
 
 # 📝Arkusze z 2023 roku 📝
 
+**Podsumowanie arkuszy:**
+
+- INF03: 9 arkuszy
+- EE09: 5 arkuszy
+- E14: 2 arkuszy
+
 ## Styczeń
 - 📚 INF03-**01** [INF.03-01-23.01-SG](./INF.03-01-23.01-SG)
 - 📚 INF03-**02** [INF.03-02-23.01-SG](./INF.03-02-23.01-SG)

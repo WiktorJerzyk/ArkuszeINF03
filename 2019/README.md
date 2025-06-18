@@ -2,6 +2,12 @@
 
 # 📝Arkusze z 2019 roku 📝
 
+**Podsumowanie arkuszy:**
+
+- INF03: 0 arkuszy
+- EE09: 6 arkuszy
+- E14: 18 arkuszy
+
 ## Styczeń
 - 📚 E14-**01** [E.14-01-19.01-pliki](./E.14-01-19.01-pliki)
 - 📚 E14-**02** [E.14-02-19.01-pliki](./E.14-02-19.01-pliki)

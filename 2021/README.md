@@ -2,6 +2,12 @@
 
 # 📝Arkusze z 2021 roku 📝
 
+**Podsumowanie arkuszy:**
+
+- INF03: 1 arkuszy
+- EE09: 10 arkuszy
+- E14: 7 arkuszy
+
 ## Styczeń
 - 📚 EE09-**01** [EE.09-01-21.01-SG](./EE.09-01-21.01-SG)
 - 📚 EE09-**02** [EE.09-02-21.01-SG](./EE.09-02-21.01-SG)
