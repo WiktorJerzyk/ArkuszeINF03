@@ -1,3 +1,14 @@
+import os
+from collections import defaultdict
+
+KODY = ["INF.03", "EE.09", "E.14"]
+
+def rozpoznaj_kod(nazwa_folderu):
+    for kod in KODY:
+        if kod in nazwa_folderu:
+            return kod
+    return None
+
 def generuj_podsumowanie_glowne():
     lata = sorted([
         d for d in os.listdir('.')
@@ -8,12 +19,12 @@ def generuj_podsumowanie_glowne():
     linie_readme = []
 
     linie_readme.append("# 📝 Arkusze INF03 📝")
-    linie_readme.append("### Repozytoirum katalogujące egzaminy z poprzednich lat: INF03, EE.09, E14\n")
+    linie_readme.append("### Repozytorium katalogujące egzaminy z poprzednich lat: INF03, EE.09, E14\n")
     linie_readme.append("## 📁 Nawigacja po latach 📁")
     linie_readme.append("> Każdy rok poniżej to odnośnik do odpowiedniego katalogu w repozytorium")
 
     for rok in lata:
-        sciezka_roku = os.path.join(rok)
+        sciezka_roku = os.path.join(".", rok)
         foldery = [
             f for f in os.listdir(sciezka_roku)
             if os.path.isdir(os.path.join(sciezka_roku, f)) and not f.startswith('.')
@@ -44,7 +55,10 @@ def generuj_podsumowanie_glowne():
     for kod in KODY:
         linie_readme.append(f"- {kod}: {wszystkie_liczniki[kod]} arkuszy")
 
-    with open("Readme.md", "w", encoding="utf-8") as f:
+    with open("README.md", "w", encoding="utf-8") as f:
         f.write("\n".join(linie_readme))
 
-    print("\n✅ Zakończono generowanie Readme.md\n")
+    print("\n✅ Zakończono generowanie README.md\n")
+
+# wywołanie
+generuj_podsumowanie_glowne()
